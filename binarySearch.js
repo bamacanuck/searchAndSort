@@ -20,4 +20,7 @@ binarySearch (array, value) => {
         }
     }
 
+    return -1;
+
 }
+
