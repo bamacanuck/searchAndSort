@@ -9,7 +9,7 @@ binarySearch (array, value) => {
 
         let middle = Math.floor((low + high) / 2);
 
-        
+        if (array[mid] === value)
     }
 
 }
