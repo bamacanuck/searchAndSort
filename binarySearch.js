@@ -1,8 +1,13 @@
-let low = 0;
 
-let high = array.length - 1;
+binarySearch () => {
 
-while (low <= high) {
+    let low = 0;
 
-    midpoint = Math.round
+    let high = array.length - 1;
+
+    while (low <= high) {
+
+        let middle = Math.floor((low + high) / 2);
+    }
+
 }
