@@ -1,5 +1,5 @@
 
-binarySearch () => {
+binarySearch (array, value) => {
 
     let low = 0;
 
@@ -8,6 +8,8 @@ binarySearch () => {
     while (low <= high) {
 
         let middle = Math.floor((low + high) / 2);
+
+        
     }
 
 }
