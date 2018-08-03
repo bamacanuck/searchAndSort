@@ -2,6 +2,8 @@
 
 // (fix this code)
 
+// vis-a-vis middle versus mid, etc.
+
 let middle;
 let array = process.argv(3);
 let value = process.argv(2);
