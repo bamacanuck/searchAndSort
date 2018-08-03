@@ -4,7 +4,7 @@
 
 // vis-a-vis middle versus mid, etc.
 
-let middle;
+let midInd;
 let array = process.argv(3);
 let value = process.argv(2);
 
