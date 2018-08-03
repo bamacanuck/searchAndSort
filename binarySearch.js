@@ -1,4 +1,8 @@
 
+let middle;
+let array = process.argv(3);
+let array = process.argv(2);
+
 binarySearch (array, value) => {
 
     let low = 0;
@@ -20,7 +24,8 @@ binarySearch (array, value) => {
         }
     }
 
-    return - 1;
+    // return - 1;
 
 }
 
+return middle;
