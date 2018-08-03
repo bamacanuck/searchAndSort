@@ -1,9 +1,12 @@
+// STILL in progress
+
+// (fix this code)
 
 let middle;
 let array = process.argv(3);
-let array = process.argv(2);
+let value = process.argv(2);
 
-binarySearch (array, value) => {
+binarySearch (array, target) => {
 
     let low = 0;
 
@@ -13,8 +16,8 @@ binarySearch (array, value) => {
 
         let middle = Math.floor((low + high) / 2);
 
-        if (array[mid] === value) {
-            return middle;
+        if (array[middle] === value) {
+            return value;
         }
         elif (array[mid] < value) {
             low = middle + 1;
