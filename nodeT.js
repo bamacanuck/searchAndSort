@@ -1,3 +1,5 @@
-// console.log("... heya heya heya...");
+console.log("... heya heya heya...");
 
-console.log(process.argv[2]);
+console.log("\n");
+
+console.log(process.argv[3]);
