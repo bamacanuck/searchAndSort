@@ -10,21 +10,21 @@ let value = process.argv(2);
 
 binarySearch (array, target) => {
 
-    let low = 0;
+    let lowInd = 0;
 
-    let high = array.length - 1;
+    let highInd = array.length - 1;
 
-    while (low <= high) {
+    while (lowInd <= highInd) {
 
-        let middle = Math.floor((low + high) / 2);
+        let midIndex = Math.floor((low + high) / 2);
 
-        if (array[middle] === value) {
+        if (array[midInd] === value) {
             return value;
         }
-        elif (array[mid] < value) {
+        elif (array[midInd] < value) {
             low = middle + 1;
         }
-        else (array[mid] > value) {
+        else (array[midInd] > value) {
             low = middle - 1;
         }
     }
