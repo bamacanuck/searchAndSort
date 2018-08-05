@@ -29,7 +29,7 @@ binarySearch (array, target) => {
         }
     }
 
-    // return - 1;
+    // return - 1; ???
 
 }
 
