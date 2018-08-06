@@ -4,29 +4,32 @@
 
 // vis-a-vis middle versus mid, etc.
 
-let midInd;
-let array = process.argv(3);
-let value = process.argv(2);
+
 
 binarySearch (array, target) => {
 
-    let lowInd = 0;
+	let midInd;
+	let array = process.argv(3);
+	let value = process.argv(2);
 
-    let highInd = array.length - 1;
+  let lowInd = 0;
 
-    while (lowInd <= highInd) {
+  let highInd = array.length - 1;
 
-        let midIndex = Math.floor((low + high) / 2);
+  while (lowInd <= highInd) {
 
-        if (array[midInd] === value) {
-            return value;
-        }
-        elif (array[midInd] < value) {
-            low = middle + 1;
-        }
-        else (array[midInd] > value) {
-            low = middle - 1;
-        }
+      let midIndex = Math.floor((low + high) / 2);
+
+      if (array[midInd] === value) {
+        return value;
+      }
+			
+			else if (array[midInd] < value) {
+        lowInd = middle + 1;
+      }
+      else if (array[midInd] > value) {
+        highInd = middle - 1;
+      }
     }
 
     // return - 1; ???
