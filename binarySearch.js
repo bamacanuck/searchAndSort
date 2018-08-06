@@ -20,14 +20,14 @@ binarySearch (array, target) => {
 
       let midIndex = Math.floor((low + high) / 2);
 
-      if (array[midInd] === value) {
-        return value;
+      if (array[midInd] === target) {
+        return midInd;
       }
 			
-			else if (array[midInd] < value) {
+			else if (array[midInd] < target) {
         lowInd = middle + 1;
       }
-      else if (array[midInd] > value) {
+      else if (array[midInd] > target) {
         highInd = middle - 1;
       }
     }
