@@ -13,7 +13,7 @@ var result = binarySearch([
   4567,// index 11
   4599,// index 12
   83784// index 13
-], 1001);
+], 212);
 
 console.log(result);
 
@@ -54,3 +54,5 @@ function binarySearch(stuff, searchElement) {
 
   return false;
 }
+
+// binarySearch ();
