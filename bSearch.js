@@ -1,21 +1,6 @@
-var result = binarySearch([
-  1,// index 0
-  23,// index 1
-  43,// index 2
-  56,// index 3
-  77,// index 4
-  89,// index 5
-  211,// index 6
-  212,// index 7
-  789,// index 8
-  972,// index 9
-  1001,// index 10
-  4567,// index 11
-  4599,// index 12
-  83784// index 13
-], 212);
-
-console.log(result);
+// test function call detailed further down
+// in document, with example array, and
+// array element sought
 
 function binarySearch(stuff, searchElement) {
 
@@ -56,3 +41,22 @@ function binarySearch(stuff, searchElement) {
 }
 
 // binarySearch ();
+
+var result = binarySearch([
+  1,// index 0
+  23,// index 1
+  43,// index 2
+  56,// index 3
+  77,// index 4
+  89,// index 5
+  211,// index 6
+  212,// index 7
+  789,// index 8
+  972,// index 9
+  1001,// index 10
+  4567,// index 11
+  4599,// index 12
+  83784// index 13
+], 212);
+
+console.log(result);
