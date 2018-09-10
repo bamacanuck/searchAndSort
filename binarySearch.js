@@ -4,7 +4,7 @@
 
 // vis-a-vis middle versus mid, etc.
 
-
+// midInd versus midIndex ???
 
 binarySearch (array, target) => {
 
